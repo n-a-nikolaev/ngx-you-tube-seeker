@@ -1,0 +1,12 @@
+:host {
+  display: block;
+  
+  .full-width-form {
+    display: flex;
+    flex-direction: column;
+
+    & > * {
+      width: 100%;
+    }
+  }
+}
